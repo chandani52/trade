@@ -6,5 +6,10 @@ pipeline {
         build 'mymaventrade'
       }
     }
+    stage('SIT') {
+      steps {
+        echo 'hello build sucessfull'
+      }
+    }
   }
 }
